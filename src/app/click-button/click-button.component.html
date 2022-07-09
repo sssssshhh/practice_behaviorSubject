@@ -1,0 +1,9 @@
+<label for="name">Name: </label>
+<input id="name" type="text" [formControl]="name">
+
+<p>my name is {{ currentName }}</p>
+<button type="button" (click)="save()">Update Name</button>
+
+<nav>
+    <a routerLink="/anotherPage">go to AnotherPage</a>
+</nav>
